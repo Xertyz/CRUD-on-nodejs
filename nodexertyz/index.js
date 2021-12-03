@@ -29,7 +29,7 @@ const student = (req, res) => {
             if (url.length > 1)
                 write(res, crud.delete(url[1]));
             else
-                write(res,{error: "Не передан ID"}));
+                write(res,{error: "Не передан ID"});
             break;
     }
 }
